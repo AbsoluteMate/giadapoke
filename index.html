@@ -754,7 +754,7 @@
       for (const person in data) {
         let new_name = await get_NickName(person, blockchain);
         if (new_name) {
-          data[new_name + " (nick)"] = data[person];
+          data[new_name] = data[person];
           delete data[person];
         }
       }
