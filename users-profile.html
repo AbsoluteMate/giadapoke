@@ -304,15 +304,17 @@
           if (!nameFrom) { nameFrom = "" } else { nameFrom = `<strong>(${nameFrom})</strong>` }
           nameTo = get_NickName(block.transactions.toAddress, blockchain);
           if (!nameTo) { nameTo = "" } else { nameTo = `<strong>(${nameTo})</strong>` }
-
-
+          let color = "text-success"
+          if (block.transactions.fromAddress == address) {
+            color = "text-danger"
+          }
           $(".table-trans").prepend(`<tr>
                               <th scope="row"><a href="#">${block.height}</a></th>
                               <th scope="row">${timeAgo(block.timestamp)}</th>
                               <td style="width:15%;">${block.message}</td>
                               <td>${block.transactions.fromAddress}  ${nameFrom}</td>
                               <td>${block.transactions.toAddress} ${nameTo}</td>
-                              <td>${mes}</td>
+                              <td><span class="${color}">${mes}</span></td>
                             </tr>`);
           //contare i soldi
           if (block.transactions.fromAddress != address && block.transactions.amount) {
