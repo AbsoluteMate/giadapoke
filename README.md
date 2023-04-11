@@ -1,14 +1,12 @@
 <br/>
 <p align="center">
   <a href="https://github.com/absolutemate/giadapoke">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/img/readme.svg" alt="Logo" width="200">
   </a>
 
-  <h3 align="center">PokeDiscordStats</h3>
+  <h2 align="center" style="font-weight:600">PokeDiscordStats</h2>
 
   <p align="center">
-    A website to watch the statistics of the Bot
-    <br/>
 <b>
     <a href="https://absolutemate.github.io/giadapoke/index.html">View Website</a>
     .
@@ -22,7 +20,7 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/absolutemate/giadapoke?color=dark-green) ![Issues](https://img.shields.io/github/issues/absolutemate/giadapoke) 
+![Contributors](https://img.shields.io/github/contributors/absolutemate/giadapoke?color=dark-green) ![Issues](https://img.shields.io/github/issues/absolutemate/giadapoke)
 
 ## About The Project
 
@@ -46,7 +44,6 @@ It is also possible to search for a user by <b>[Discord ID](https://support.disc
 ## Getting Started
 
 To see the website click here: <b>[Website](https://absolutemate.github.io/giadapoke/index.html)</b>
-
 
 ## Authors
 
