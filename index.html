@@ -690,7 +690,7 @@
         nameLastOwner = get_NickName(ogg.last_owner, blockchain);
         if (!nameLastOwner) { nameLastOwner = "" } else { nameLastOwner = `<strong>(${nameLastOwner})</strong>` }
         let immagine_pokemon;
-        await $.get('https://pokeapi.co/api/v2/pokemon/' + a, function (response) {
+        await $.get('https://pokeapi.co/api/v2/pokemon/' + a.split("_")[0], function (response) {
           immagine_pokemon = response.sprites.other["official-artwork"].front_default;
         }).fail(function () {
           console.log("Error retrieving data from API");
